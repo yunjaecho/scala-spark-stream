@@ -34,4 +34,4 @@ object StructuredStreamParseData extends App {
 }
 
 
-case class Person(name: String, city: String, country: String, age: Option[Int])
+//case class Person(name: String, city: String, country: String, age: Option[Int])
