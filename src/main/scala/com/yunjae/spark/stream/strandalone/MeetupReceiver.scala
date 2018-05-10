@@ -27,7 +27,7 @@ class MeetupReceiver extends Receiver[String](StorageLevel.MEMORY_AND_DISK_2){
 
      val headers =
        s"""GET /2/rsvps HTTP/1.1
-          |Host: dic.daum.net
+          |Host: http://stream.meetup.com/2/rsvps
           |Connection: keep-alive
         """.stripMargin
 
